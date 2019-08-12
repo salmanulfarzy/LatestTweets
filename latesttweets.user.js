@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name     Latest Tweets
-// @version  1.3
-// @grant    none
-// @include http*://twitter.com*
-// @run-at document-end
+// @name        Latest Tweets
+// @version     1.3
+// @description Switch default home view into latest sweets
+// @grant       none
+// @include     http*://twitter.com*
+// @updateURL   https://raw.githubusercontent.com/Cambysses/LatestTweets/master/latesttweets.user.js
+// @downloadURL https://raw.githubusercontent.com/Cambysses/LatestTweets/master/latesttweets.user.js
+// @run-at      document-end
 // ==/UserScript==
 
 // Script sees if tweets are set to "home", and if so switches to "latest".
